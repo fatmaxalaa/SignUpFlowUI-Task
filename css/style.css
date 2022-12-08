@@ -1,0 +1,95 @@
+body
+{
+        /* height: 100vh; */
+        background: rgb(255,255,255);
+        background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(192,204,245,1) 0%, rgba(188,201,244,1) 6%, rgba(231,181,189,1) 100%) ;
+}
+.card
+{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     background: rgba(245, 247, 255, 0.85);
+    
+}
+
+
+
+.welcomeText
+{
+      color:  #2D2D2D;
+}
+.welcomeParag
+{
+        color: #1F1249;
+        font-size: 18px;
+}
+
+img{
+        border-radius: 10px;
+}
+
+.bttn
+{
+        background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%) !important;
+        box-shadow: 0px 6px 18px #9CADF2;
+}
+
+.userInput
+{
+        padding-left:50px;
+        background-color: white;
+        z-index: 0;
+        border: 1px solid #DBE3FF;
+        border-radius: 5px;
+}
+.userIconImg
+{
+        position: absolute;
+        z-index: 10;
+        margin-top: 4px;
+        padding: 3px;
+}
+.vl {
+   border-left: 1px solid #DBE3FF;
+  height: 20px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+.input-control input:focus
+{
+        outline: 0;
+        
+}
+.input-control.success input
+{
+        border-color: #09c372;
+
+}
+.input-control.error input
+{
+        border-color: #ff3860;
+
+}
+.input-control .error
+{
+        color: #ff3860;
+        font-size: 12px;
+        height: 13px;
+}
+
+
+@media (min-width : 320px) and (max-width : 767px) {
+        .userIconImg
+{
+        left:18%
+}
+
+/* .vl {
+  border-left: 1px solid #DBE3FF;
+  height: 20px;
+  position: absolute;
+  left:20%;
+  margin-top: 8px;
+} */
+}

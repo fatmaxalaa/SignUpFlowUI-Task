@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Signup Screen</title>
+</head>
+
+<body>
+        <div>
+                <div class="container">
+                        <div class="row justify-content-center">
+                                <div class="col-lg-10 mt-4">
+                                        <div class="card mt-5 p-5 border-0 div">
+                                                <div class="card-body text-lg-start text-center">
+                                                        <div class="row">
+                                                                <div class="col-lg-6">
+                                                                        <img src="img/signUp.PNG" alt="welcome"
+                                                                                class="img-fluid ">
+                                                                </div>
+                                                                <div class="col-lg-5 ms-3">
+                                                                        <h1 class="fw-bold welcomeText mt-3">Create
+                                                                                Account
+                                                                        </h1>
+                                                                        <p class="welcomeParag mt-4">Go ahead and sign
+                                                                                up, let everyone know how awesome you
+                                                                                are!</p>
+                                                                        <div id="apiError"></div>
+                                                                        <form action="https://goldblv.com/api/hiring/tasks/register"
+                                                                                class="mt-4"
+                                                                                 id="form">
+                                                                                <div class="input-control">
+                                                                                        <img src="./img/userIcon.PNG"
+                                                                                                alt="" width="35px"
+                                                                                                class="userIconImg">
+                                                                                        <input type="text"
+                                                                                                class="form-control userInput"
+                                                                                                placeholder="Username"
+                                                                                                aria-label="Username"
+                                                                                                name="username"
+                                                                                                id="username"
+                                                                                                aria-describedby="addon-wrapping">
+                                                                                        <div class="vl"></div>
+                                                                                        <div class="error"></div>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="input-control mt-3">
+                                                                                        <img src="./img/envelope.PNG"
+                                                                                                alt="" width="35px"
+                                                                                                class="userIconImg">
+                                                                                        <input type="text" class="form-control
+                                                                                                userInput"
+                                                                                                placeholder="Email"
+                                                                                                id="email"
+                                                                                                aria-label="Email"
+                                                                                                aria-describedby="addon-wrapping">
+                                                                                        <div class="vl"></div>
+                                                                                        <div class="error"></div>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="input-control mt-3">
+                                                                                        <img src="./img/pass.PNG" alt=""
+                                                                                                width="35px"
+                                                                                                class="userIconImg">
+                                                                                        <input type="password" class="form-control
+                                                                                                userInput"
+                                                                                                placeholder="Password"
+                                                                                                id="password"
+                                                                                                aria-label="password"
+                                                                                                aria-describedby="addon-wrapping">
+                                                                                        <div class="vl"></div>
+                                                                                        <div class="error"></div>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="input-control mt-3">
+                                                                                        <img src="./img/pass.PNG" alt=""
+                                                                                                width="35px"
+                                                                                                class="userIconImg">
+                                                                                        <input type="password" class="form-control
+                                                                                                userInput"
+                                                                                                placeholder="Confirm Password"
+                                                                                                aria-label="password"
+                                                                                                  id="password2"
+                                                                                                aria-describedby="addon-wrapping">
+                                                                                        <div class="vl"></div>
+                                                                                        <div class="error"></div>
+                                                                                </div>
+                                                                                <button type="submit"
+                                                                                        class="btn btn-primary
+                                                                                        text-center w-100 mt-4 p-2
+                                                                                        bttn">Create
+                                                                                        Account</button>
+                                                                        </form>
+
+                                                                        <!-- <a class="btn btn-primary text-center w-100 mt-3 p-2 bttn"
+                                                                                href="./Succeed.html">Create Account</a> -->
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/app.js"></script>
+</body>
+
+</html>
